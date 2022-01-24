@@ -1,4 +1,4 @@
-name: Deploy to Azure Spring Cloud with Key Vault2
+name: Deploy to Azure Spring Cloud with Key Vault3
 on: [push]
 
 env:
