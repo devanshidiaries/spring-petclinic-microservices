@@ -404,7 +404,7 @@ Deploy Spring Boot applications to Azure.
 ```
 
 ```bash
-    az spring-cloud app show --name ${API_GATEWAY} | grep url
+    az spring-cloud app show --name ${API_GATEWAY} --query properties.url -o tsv
 ```
 
 Navigate to the URL provided by the previous command to open the Pet Clinic application.
