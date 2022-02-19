@@ -5,6 +5,7 @@ env:
   AZURE_SUBSCRIPTION: 2933999b-07cf-4548-8eb7-4c1c8268fd8c # customize this
   SPRING_CLOUD_SERVICE: djjavaworkshopspringcloud # customize this
   KEYVAULT: djjavakeyvalut # customize this
+  
   # ==== APPS ====:
   API_GATEWAY: api-gateway
   ADMIN_SERVER: admin-server
