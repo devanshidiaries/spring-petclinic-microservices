@@ -2,9 +2,9 @@ name: Deploy to Azure Spring Cloud with Key Vault3
 on: [push]
 
 env:
-  AZURE_SUBSCRIPTION: b59a9b75-a297-41fc-8773-4f3713391c19 # customize this
-  SPRING_CLOUD_SERVICE: levelup-asc-service # customize this
-  KEYVAULT: levelup-asc-kv # customize this
+  AZURE_SUBSCRIPTION: 2933999b-07cf-4548-8eb7-4c1c8268fd8c # customize this
+  SPRING_CLOUD_SERVICE: djjavaworkshopspringcloud # customize this
+  KEYVAULT: djjavakeyvalut # customize this
   # ==== APPS ====:
   API_GATEWAY: api-gateway
   ADMIN_SERVER: admin-server
